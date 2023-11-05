@@ -1,0 +1,560 @@
+body {
+    margin: 0;
+    font-family: 'lato', sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    height: 40px; 
+    color: white;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 6px rgb(0, 0, 0, 0.2);
+}
+.free{
+    color: green;
+}
+
+.pfeil {
+    width: 1em;
+    height: 1em;
+}
+
+.lieferando {
+    width: 8em;
+    height: 2em
+}
+
+h1 {
+    color: black;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    height: 12px;
+}
+
+header img:hover {
+    cursor: pointer;
+}
+
+.headerName {
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.figureimg {
+    border-radius: 8px;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    width: 90px;
+    height: 5px;
+}
+
+.teigundzeugimg {
+    color: black;
+}
+
+.headerFllagAndIcon {
+    margin-right: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flag {
+    width: 26px;
+    height: 23px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+    margin-right: 28px;
+}
+
+.headerinfo {
+    margin-right: 110px;
+    color: black;
+}
+
+.bewertungen {
+    color: black;
+    font-size: 12px;
+}
+.foodcardtext{
+    font-size:12px ;
+}
+.p{
+    font-size: 10px;
+}
+
+h2 {
+    font-size: 15px;
+    margin: 0;
+}
+h4{
+    font-size: 10px;
+    color: rgb(0,0,0,0.4);
+}
+h3{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.infoRabatt0 {
+    margin: 12px;
+
+
+}
+.infoRabatt1 {
+    margin: 12px;
+}
+.infoRabatt2 {
+    margin: 12px;
+    font-size: 10px;
+    color: rgb(0, 0, 0, 0.6 );
+}
+
+.rabatt {
+    margin-left: 100px;
+    margin-top: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #eeb740;
+    border-radius: 12px;
+    width: 20vw;
+}
+
+.maincontent {
+    display: flex;
+
+}
+
+.shoppingCart {
+
+    width: 25%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    box-shadow: -2px 1px 17px 5px rgba(199 199 199 / 53%);
+    transition: all 125ms ease-in-out
+}
+
+.shoppingCartLeer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.shoppingCartLeer img {
+    height: 40px;
+}
+
+.basketname {
+    margin-bottom: 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.left {
+    width: 75%;
+}
+
+.sectionMain span {
+    margin-left: 100px;
+
+}
+
+.sectionOne img {
+
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+
+}
+
+.sectionOnePizzaLogo {
+    margin: 0;
+    padding: 12px;
+    position: absolute;
+    top: 250px;
+    left: 86px;
+}
+
+.sectionOnePizzaLogo img {
+    height: 100px;
+
+}
+.infoIMG:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.heartIMG:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.sectionOneHeartundInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.sectionOneHeartundInfo img {
+    height: 19px;
+    margin-right: 20px;
+}
+
+.sterneBewertung {
+    margin-left: 100px;
+
+}
+
+.sterneBewertung img:hover {
+    cursor: pointer;
+}
+
+.sterneBewertung img {
+    height: 15px;
+}
+
+.lieferungsZeit {
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.lieferungsZeit img {
+    height: 20px;
+}
+
+.baar {
+    height: 32px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.card {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.card button {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    border: white;
+    font-size: 22px;
+    margin: 20px;
+}
+
+.card button:hover {
+    cursor: pointer;
+    background-color: rgb(195, 196, 197)
+}
+
+.menuImage {
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menuImage img {
+    width: 100%;
+    height: 175px;
+    object-fit: cover;
+}
+
+.basketclass {
+    margin: 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0px -5px 5px -5px rgba(0, 0, 0, 0.2);
+}
+.plus {
+    cursor: pointer;
+    padding: 12px;
+    font-size: 18px;
+}
+
+.minus {
+    cursor: pointer;
+    font-size: 18px;
+    padding: 12px;
+}
+
+.gesamt {
+
+    margin-top: 20px;
+}
+.fullPrice{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.gesamtpreis {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gesamtpreis button {
+    background-color: #eec452;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    border: 1px solid rgb(0, 0,0,0.2);
+    border-radius: 3px;
+}
+
+.gesamtpreis button:hover {
+    cursor: pointer;
+    background-color: #f0af22;
+    
+}
+
+footer {
+    background-color: #efedea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+}
+
+footer img {
+    height: 34px;
+}
+
+.footerlogo{
+    color: black;
+}
+.footerLinks{
+    padding-top: 12px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+
+.logoWarenkorb {
+    position: sticky;
+    bottom: 22px;
+    display: flex;
+    justify-content: center;
+    display: none;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0, 0.2);
+    cursor: pointer;
+    gap: 12px;
+    background-color: darkorange;
+}
+.warenkorbText{
+    cursor: pointer;
+}
+
+.logoWarenkorb img {
+    height: 42px;
+}
+
+.logoWarenkorb img:hover {
+    cursor: pointer;
+}
+
+
+.showCartInResponse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    background-color: white;
+    box-shadow: -2px 1px 17px 5px rgba(199 199 199 / 53%);
+    transition: all 125ms ease-in-out;
+}
+
+
+/* responsive style*/
+
+@media(max-width: 980px) {
+    .shoppingCart {
+        display: none;
+    }
+
+    .maincontent {
+        display: block
+    }
+
+    .left {
+        width: 100%;
+    }
+
+
+    .logoWarenkorb {
+        position: sticky;
+        bottom: 22px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 980px) {
+
+    .card {
+        margin-left: 16px;
+    }
+
+}
+
+@media(max-width: 700px) {
+    .headerName h1 {
+        display: none;
+    }
+
+    .headerinfo {
+        margin-right: 0px;
+    }
+    .infoRabatt0{
+font-size: 10px;
+    }
+    .infoRabatt1{
+font-size: 10px;
+    }
+    .infoRabatt2{
+        font-size: 10px;
+    }
+
+    .flag {
+        display: none;
+    }
+}
+
+@media(max-width: 700px) {
+    .infoRabatt {
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 650px) {
+
+    .sectionOnePizzaLogo {
+        left: 2px;
+    }
+
+    .sectionOneHeartundInfo {
+
+        margin-left: 17px;
+    }
+
+    .sterneBewertung {
+        margin-left: 17px;
+    }
+
+    .lieferungsZeit {
+        margin-left: 17px;
+    }
+
+    .rabatt {
+        margin-left: 17px;
+    }
+
+    .infoRabatt {
+        font-size: 12px;
+    }
+
+    .sectionMain span {
+        margin-left: 31px;
+        display: flex;
+    }
+}
+
+@media(max-width: 551px) {
+    .infoRabatt {
+        font-size: 8px;
+    }
+}
+
+@media(max-width: 500px) {
+    .lieferungsZeit {
+        margin-left: 0px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 10px;
+    }
+
+    .rabatt {
+        display: none;
+    }
+
+    .infoRabatt {
+        display: none;
+    }
+
+    .sectionOneHeartundInfo img {
+        height: 30px;
+        margin-right: 4px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding-bottom: 120px;
+        padding-top: 120px;
+        background-color: #efedea;
+    }
+}
+@media (max-width: 350px){
+    .time{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 300px) {
+
+    header img {
+        height: 0px;
+    }
+
+    .sectionOneHeartundInfo img {
+        height: 28px;
+    }
+}

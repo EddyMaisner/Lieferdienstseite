@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teig und Zeug</title>
+  <link rel="icon" type="image/x-icon" href="./img/pizza-icon.png" />
+  <link rel="stylesheet" href="fonts.css" />
+  <link rel="stylesheet" href="main.css" />
+  <script src="main.js"></script>
+</head>
+
+<body onload="render()">
+
+  <header>
+    <div class="headerName">
+      <img class="pfeil" src="./img/pfeilLinks.jpg" alt="">
+      <img class="lieferando" src="./img/lieferando.jpg" alt="" />
+    </div>
+    <div class="headerinfo">
+      <h2 class="foodcardtext">Speisekarte</h2>
+    </div>
+    <div class="headerFllagAndIcon">
+      <img class="flag" src="./img/flag.jpg" alt="" />
+      <img class="burgerbutton" src="./img/fotterRightButton.jpg" alt="" />
+    </div>
+  </header>
+
+
+  <div class="maincontent">
+    <div class="left">
+      <section class="sectionMain">
+        <div class="sectionOne">
+          <img src="./img/pizza.jpg" alt="" />
+        </div>
+        <figure class="sectionOnePizzaLogo">
+          <img class="figureimg" src="./img/teigunfzeug.jpg" alt="" />
+        </figure>
+        <div class="sectionOneHeartundInfo">
+          <h1 class="teigundzeugimg">Teig und Zeug</h1>
+          <div>
+            <img class="infoIMG" src="./img/info.jpg" alt="" /><img onclick="likeImg()" id="heart" class="heartIMG"
+              src="./img/heartUnliked.jpg" alt="" />
+          </div>
+          <br />
+        </div>
+        <div class="sterneBewertung">
+          <img class="star" src="./img/stern.jpg" alt="" />
+          <img class="star" src="./img/stern.jpg" alt="" />
+          <img class="star" src="./img/stern.jpg" alt="" />
+          <img class="star" src="./img/stern.jpg" alt="" />
+          <img class="star" src="./img/stern.jpg" alt="" />
+          <a class="bewertungen" href="#">53 Bewertungen</a>
+        </div>
+        <br />
+        <div class="lieferungsZeit">
+          <img src="./img/clock.jpg" alt="" /> <p class="time">Lieferung ab: 16:30 Uhr / Lieferzeit: ca 30-60 min</p>
+          <div class="dot"></div>
+          <img src="./img/bicycle.jpg" alt="" />
+          <p class="free">kostenlos</p>
+          <div class="dot"></div>
+          <img src="./img/bag.jpg" alt="" />Min. 25 € <br />
+        </div>
+        <span class="time" >Getränke & Desserts sind vom Mindestbestellwert ausgenommen!</span>
+
+        <div class="rabatt">
+          <b class="infoRabatt0">Abholer Rabatt</b>
+          <p class="infoRabatt1">Bei selbst abholung 10% Rabatt</p>
+          <p class="infoRabatt2">Nur bei Abholung</p>
+
+        </div>
+        <div class="baar"></div>
+
+
+      </section>
+
+      <div class="content" id="content"></div>
+    </div>
+    <div id="myDiv" class="shoppingCart">
+
+      <div class="basketname">
+        <h1>Warenkorb</h1>
+      </div>
+      <div id="basket" class="shoppingCartLeer">
+        <img src="./img/bag.png" alt="" />
+        <h3>Fülle deinen Warenkorb</h3>
+        <span>Füge einige leckere Gerichte aus der <br />
+          Speisekarte hinzu und bestelle dein Essen</span>
+      </div>
+    </div>
+  </div>
+
+  <div onclick="smallWarenkorb()" class="logoWarenkorb">
+    <img id="basketPicture" onclick="iconWarenkorb()" src="./img/warenkorb.jpg" />
+    <b onclick="iconWarenkorb()" class="warenkorbText">Warenkorb</b>
+  </div>
+
+  <footer>
+
+    <a class="footerLinks" href="#">Ein Restaurant emphelen</a>
+    <a class="footerLinks" href="#">Ein Restaurant anmelden</a>
+    <a class="footerLinks" href="#">Jobs</a>
+    <a class="footerLinks" href="#">AGB</a>
+    <a class="footerLinks" href="#">Datenschutzerklärung</a>
+    <a class="footerLinks" href="#">Impressum</a>
+    <a class="footerLinks" href="#">Verwendung von Cookies</a>
+  </footer>
+</body>
+
+</html>
